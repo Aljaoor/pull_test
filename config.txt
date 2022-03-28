@@ -1,0 +1,23 @@
+git config -l
+
+git help config 
+
+git config --global user.name =git config --global user.name "mohammed" != git config --global --unset user.name
+λ git config --global user.email
+
+==============
+git config --global --edit
+git config --global core.editor code for vscode 
+ex
+
+[color "status"]
+added = yellow
+changed= red bold
+untracked = magenta bold
+
+[color "branch"]
+remote =  yellow
+============
+st = status
+alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /  "for git alias"
+
