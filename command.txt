@@ -1,0 +1,28 @@
+git clone link
+==============
+git status
+git add  != git reset head
+git push RemoteName branchName
+git branch
+git remote -v
+================commit
+git commit -m "message"
+git log 
+git reset --hard hash
+git push master origin --force
+
+===========pull
+
+git pull RemoteName 
+
+
+========= delete 
+delete before lift in staged : git clean -n 
+			     : git clean -f
+
+==========restore 
+
+restore : git restore --staged name.txt
+
+============
+code file name ----> open file in vs code

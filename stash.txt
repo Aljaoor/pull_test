@@ -1,0 +1,10 @@
+git stash :for all file after add 
+git stash list
+git stash pop  ---> get last file created
+=================
+git stash save ""
+git stash apply   ----> don't delete stash after file extraction
+git stash apply/pop stash@{index}
+git stash drop
+git stash show
+git stash clear
