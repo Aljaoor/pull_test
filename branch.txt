@@ -1,0 +1,9 @@
+new branch : git branch name
+to move to branch : git checkout name
+create branch and move to it :git checkout -b name
+rename branch : git branch -m NEwname
+delete it : git branch -d name
+to move to branch : git checkout name
+force delete it	even if edit not merge : gir branch -D name  
+==============
+git merge "name of branch "

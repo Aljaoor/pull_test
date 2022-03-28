@@ -1,0 +1,9 @@
+1)
+create file  touch .gitignore
+code .gitignore ---> as .log ignore all file .log
+also
+text.txt
+folderName/
+to create exeption --> !nameFile.log
+=================
+we can add by get add -f text.txt
